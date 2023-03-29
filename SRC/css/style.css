@@ -1,0 +1,404 @@
+
+/* open-sans-regular - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v34-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-600 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+src:url('../fonts/open-sans-v34-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('../fonts/open-sans-v34-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+src:url('../fonts/open-sans-v34-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('../fonts/open-sans-v34-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* raleway-300 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+src:url('../fonts/raleway-v28-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('../fonts/raleway-v28-latin-300.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* raleway-500 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+src:url('../fonts/raleway-v28-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('../fonts/raleway-v28-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* raleway-700 - latin */
+@font-face {
+font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+src:url('../fonts/raleway-v28-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('../fonts/raleway-v28-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans' 'Relaway';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1510px;
+    height: 5548px;
+    margin: 0 auto;
+
+}
+/* Block 1  */
+.tabs_container {
+    width: 100%;
+    padding: 99px 0 0 0;
+}
+.tabs__header {
+    display: flex;
+    margin-top: 99px;
+    margin-left: 170px;
+}
+.tab__1 {
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #C6CBCD;
+    border-bottom: 0px solid white;
+    border-radius: 5px 5px 0px 0px;
+}
+.tab__2 {
+    width: 184px;
+    height: 40px;
+    line-height: 40px;
+    align-items: center;
+    text-align: center;
+}
+.tab__2::after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 1px;
+    margin-left: 0;
+    background-color:#C6CBCD ;
+}
+.tabs__content {
+    box-sizing: border-box;
+    border: 1px solid #C6CBCD;
+    border-top: #FFFFFF;
+    width: 1170px;
+    height: 501px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-bottom: 50px;
+}
+.tabs__title {
+    width: 570px;
+    height: 124px;
+    margin-left: 100px;
+    margin-bottom: 27px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.tabs__subtitle {
+    width: 570px;
+    height: 210px;
+    margin-left: 100px;
+    margin-bottom: 27px;
+}
+.tabs__subtitle_text {
+    margin-top: 2em; 
+    margin-bottom: 1em; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.Tabs__buttom {
+    width: 270px;
+    height: 58px;
+    margin-left: 100px;
+    margin-bottom: 54px;
+    background-color:#EC7979;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.tabs__pic{
+    position: absolute;
+    margin-left: 700px;
+}
+/* Block 2 */
+.awesome_container{
+    width: 100%;
+}
+.awesome_content{
+    width: 1170px;
+    height: 665px;
+    margin: 0 170px 58px 170px;
+}
+.awesome__header {
+    width: 1170px;
+    margin-bottom: 110px;
+    max-width: 1169px;
+    text-align: center;
+}
+.awesome__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.awesome__title::after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    margin: 40px auto;
+    background-color: #EC7979;
+}
+.awesom__text {
+    margin-bottom: 110px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+/* Services */
+.services {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.services__item_1 {
+    width: 370px;
+    height: 383px;
+    position: absolute;
+    top: 71px;
+    left: 0;
+}
+.services__item_2 {
+    width: 370px;
+    height: 383px;
+    position: absolute;
+    top: 71px;
+    left: 401px;
+}
+.services__item_3 {
+    width: 370px;
+    height: 383px;
+    position: absolute;
+    top: 71px;
+    left: 801px;
+}
+.services_icon {
+    width: 66px;
+    height: 66px;
+    margin-bottom: 39px;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+}
+.services__title {
+    width: 369px;
+    height: 100px;
+    margin-bottom: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.services__text {
+    width: 370px;
+    height: 105px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+/* Block 3 */
+/* container */
+.Pricing_container {
+    width: 1508px;
+    height: 900px;
+    background-color: #F5F5F5;
+    margin-left: 2px;
+    padding: 50px 0 0 0;
+    position: relative;
+    top:0;
+    left: 0;
+}
+/* content */
+.Pricing_header {
+    width: 100%;
+    margin-top: 50px;
+    max-width: 1170px;
+    margin: 0 auto 59px;
+    text-align: center;
+}
+.Pricing_title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.Pricing_title::after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 1px;
+    margin: 40px auto;
+    background-color: #EC7979;
+}
+.Pricing_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+}
+/* Price */
+.price_basic {
+    position: absolute;
+    top: 245px;
+    left: 168px;
+    width: 370px;
+    height: 510px;
+}
+.price_optima {
+    position: absolute;
+    top:225px;
+    left:568px;
+    width: 370px;
+    height: 510px;
+}
+.price_pro {
+    position: absolute;
+    top: 245px;
+    left: 968px;
+    width: 370px;
+    height: 510px;
+}
+.box__1 {
+    width: 370px;
+    height: 60px; 
+    margin-top: 79px;
+    background-color: #333333;
+    border: 2px solid #F5F5F5;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F5F5F5;
+}
+.box__2 {
+    width: 369px;
+    height: 100px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    font-family:'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.box__3 {
+    width: 370px;
+    height: 50px;
+    background-color:#333333;
+    border: 2px solid #F5F5F5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.box__4 {
+    width: 370px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+color: #86878B;
+}
